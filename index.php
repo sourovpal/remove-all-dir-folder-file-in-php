@@ -11,4 +11,4 @@ function recursiveRemoveDirectory($directory)
     }
     rmdir($directory);
 }
-recursiveRemoveDirectory("upload");
+recursiveRemoveDirectory(__DIR__);
